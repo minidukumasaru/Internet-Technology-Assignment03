@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>case 04</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        .card{
+            width: 100vw;
+            height: 100vh;
+            position: relative;
+        }
+        .card>div{
+            width: 100vw;
+            height: 30px;
+            background-color: darkgray;
+        }
+        .card>div>h1{
+            color: white;
+            font-size: 20px;
+            position:relative;
+            top: 4px;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+        }
+        .card>h1{
+            width: fit-content;
+            height: fit-content;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
+            font-size: 100px;
+        }
+        #card1{
+            background-color: darksalmon;
+        }
+        #card1>div{
+            background-color: coral;
+            position: sticky;
+            top: 0;
+        }
+        #card2{
+            background-color: mediumpurple;
+        }
+        #card2>div{
+            background-color: rebeccapurple;
+            position: sticky;
+            top: 0;
+        }
+        #card3{
+            background-color: lightgreen;
+        }
+        #card3>div{
+            background-color: green;
+            position: sticky;
+            top: 0;
+        }
+        #card4{
+            background-color: darkgray;
+        }
+        #card4>div{
+            background-color: grey;
+            position: sticky;
+            top: 0;
+        }
+
+    </style>
+</head>
+<body>
+<div class="card" id="card1">
+    <div><h1>Card1</h1></div>
+    <h1>Hello</h1>
+</div>
+<div class="card" id="card2">
+    <div><h1>Card2</h1></div>
+    <h1>How</h1>
+</div>
+<div class="card" id="card3">
+    <div><h1>Card3</h1></div>
+    <h1>Are</h1>
+</div>
+<div class="card" id="card4">
+    <div><h1>Card4</h1></div>
+    <h1>You..?</h1>
+</div>
+</body>
+</html>
